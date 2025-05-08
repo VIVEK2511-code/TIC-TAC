@@ -1,0 +1,115 @@
+/* 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.contaoner {
+  background-color: #ffffffcc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.grid {
+  border: 3px solid #333;
+  border-radius: 6px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  height: 80px;
+  width: 80px;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fefefe;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.col:hover {
+  background-color: #e0f7fa;
+  transform: scale(1.05);
+}
+
+.col.X {
+  color: #1e90ff;
+}
+
+.col.O {
+  color: #ff4500;
+} */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .contaoner {
+    background-color: #ffffffcc;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .grid {
+    border: 3px solid #333;
+    border-radius: 6px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .col {
+    height: 80px;
+    width: 80px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fefefe;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .col:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.05);
+  }
+  
+  .col.X {
+    color: #1e90ff;
+  }
+  
+  .col.O {
+    color: #ff4500;
+  }
+  
+  .winner {
+    background-color: #a5f0a1 !important;
+  }
+  
+  .draw {
+    background-color: #d3d3d3 !important;
+  }
+  
